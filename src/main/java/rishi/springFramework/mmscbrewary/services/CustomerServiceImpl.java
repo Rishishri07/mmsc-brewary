@@ -30,7 +30,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public void deleteBeer(UUID customerId) {
+    public void deleteCustomer(UUID customerId) {
         log.debug("Deleting a beer");
     }
 }
